@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rezervace</title>
+</head>
+<body>
+  <h1>Rezervace</h1>
+
+  <label for="date">Datum rezervace:</label>
+  <input type="date" id="date">
+  <label for="time">Čas rezervace:</label>
+  <input type="time" id="time">
+  <button onclick="submitReservation()">Vytvořit rezervaci</button>
+
+  <div id="reservations">
+    <h2>Vytvořené rezervace</h2>
+    <ul id="reservation-list"></ul>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
